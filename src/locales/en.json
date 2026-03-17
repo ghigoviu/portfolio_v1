@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "blog": "Blog",
+    "toolbox": "Toolbox"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "roles": "Software Engineer | Cybersecurity Consultant | Project Manager",
+    "cta_resume": "Download CV",
+    "cta_work": "View Work"
+  }
+}

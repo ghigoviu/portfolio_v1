@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "experience": "Experiencia",
+    "blog": "Blog",
+    "toolbox": "Herramientas"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "roles": "Ingeniero de Software | Consultor de Ciberseguridad | Administrador de Proyectos",
+    "cta_resume": "Descargar CV",
+    "cta_work": "Ver Trabajo"
+  }
+}

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Default Light Mode applied gracefully */
+  body {
+    @apply bg-light-bg text-light-text font-montserrat transition-colors duration-500;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-light-heading font-playfair transition-colors duration-500;
+  }
+
+  /* Dark Mode Overrides */
+  .dark body {
+    @apply bg-dark-bg text-dark-text font-inter;
+  }
+  
+  .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    @apply text-dark-heading font-bebas tracking-wide;
+  }
+}
