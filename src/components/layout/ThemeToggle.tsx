@@ -11,7 +11,7 @@ export const ThemeToggle: React.FC = () => {
     i18n.changeLanguage(i18n.language === 'es' ? 'en' : 'es');
   };
 
-  const isDark = theme === 'cocina';
+  const isDark = theme === 'comensal';
 
   return (
     <div className="fixed top-6 right-6 z-50 flex items-center space-x-3 bg-white/30 dark:bg-black/30 backdrop-blur-md p-2 rounded-full border border-light-text/10 dark:border-dark-text/10 shadow-lg">

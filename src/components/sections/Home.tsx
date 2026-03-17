@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import type { Variants } from 'framer-motion';
 import { useTheme } from '../../theme/ThemeContext';
 import { Download, Link as LinkIcon } from 'lucide-react';
+import { ShuffleText } from '../common/ShuffleText';
 
 // Import Assets
 import lightPhoto from '../../assets/foto_lightmode.jpg';
@@ -75,14 +76,17 @@ export const Home: React.FC = () => {
         {/* Left Column: Text & CTA */}
         <div className="flex flex-col items-start text-left order-2 lg:order-1">
           <motion.div variants={itemVariants} className="mb-4">
-            <span className="inline-block py-1 px-3 rounded-full bg-light-accent4/20 dark:bg-dark-accent3/20 text-light-accent3 dark:text-dark-accent3 text-sm font-semibold tracking-wider uppercase backdrop-blur-sm border border-light-accent4/30 dark:border-dark-accent3/30">
-              {t('hero.greeting')}
+            <span className="inline-block py-1 px-3 rounded-full bg-light-accent4/20 dark:bg-dark-accent3/20 text-light-accent3 dark:text-dark-accent3 text-sm font-semibold tracking-wider uppercase backdrop-blur-sm border border-light-accent4/30 dark:border-dark-accent3/30 hover:scale-105 transition-transform duration-300">
+              <ShuffleText text={t('hero.greeting')} />
             </span>
           </motion.div>
           
           <motion.div variants={itemVariants} className="mb-6 relative w-full">
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-light-heading dark:text-dark-heading leading-tight drop-shadow-sm">
-              <span className="block mb-2">RODRIGO<br className="max-lg:hidden"/> CAMBRAY</span>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-light-heading dark:text-dark-heading leading-tight drop-shadow-sm cursor-default">
+              <span className="block mb-2">
+                <ShuffleText text="RODRIGO" />
+                <br className="max-lg:hidden"/> <ShuffleText text="CAMBRAY" />
+              </span>
             </h1>
             {/* Subtle Glitch effect in dark mode on hover */}
             {isDark && (
@@ -93,10 +97,10 @@ export const Home: React.FC = () => {
           </motion.div>
 
           <motion.div variants={itemVariants} className="mb-10 w-full">
-            <h2 className="text-xl md:text-2xl font-light text-light-text dark:text-dark-text/90 md:leading-relaxed flex flex-col space-y-2">
-              <span className={isDark ? "font-inter font-medium text-dark-accent3" : "font-lato text-light-accent3"}>Software Engineer</span>
-              <span className={isDark ? "font-inter font-medium" : "font-lato"}>Cybersecurity Consultant</span>
-              <span className={isDark ? "font-inter font-medium text-dark-accent2" : "font-lato text-light-accent1"}>Project Manager</span>
+            <h2 className="text-xl md:text-2xl font-light text-light-text dark:text-dark-text/90 md:leading-relaxed flex flex-col space-y-2 cursor-default">
+              <span className={isDark ? "font-inter font-medium text-dark-accent3" : "font-lato text-light-accent3"}><ShuffleText text="Software Engineer" /></span>
+              <span className={isDark ? "font-inter font-medium" : "font-lato"}><ShuffleText text="Cybersecurity Consultant" /></span>
+              <span className={isDark ? "font-inter font-medium text-dark-accent2" : "font-lato text-light-accent1"}><ShuffleText text="Project Manager" /></span>
             </h2>
           </motion.div>
 
