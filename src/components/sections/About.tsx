@@ -40,28 +40,14 @@ export const About: React.FC = () => {
               <p>
                 {isDark ? (
                   isEs
-                    ? "Mi enfoque se caracteriza por una precisión quirúrgica en el desarrollo de soluciones de backend. Mantengo un manejo sumamente cuidadoso de las herramientas de IA para potenciar el desarrollo, integrando la revisión exhaustiva de código y la aplicación estricta de metodologías de seguridad de la información."
+                    ? "Mi enfoque se caracteriza por una precisión quirúrgica en el desarrollo de soluciones de backend. Mantengo un manejo sumamente cuidadoso de las herramientas de IA para potenciar el desarrollo, integrando la revisión exhaustiva de código y la aplicación estricta de metodologías de seguridad de la información. Formado como Full-Stack y especializado en frameworks de Back end. Siempre estoy en constante aprendizaje de nuevas herramientas y técnicas que me permitan mejorar mis habilidades como programador."
                     : "My approach is characterized by surgical precision in backend solution development. I maintain a highly careful handling of AI tools to enhance development, integrating comprehensive code review and the strict application of information security methodologies."
                 ) : (
                   isEs
-                    ? "Soy un entusiasta de la programación y áreas afines a la inteligencia artificial. Formado como Full-Stack y especializado en frameworks de Back end. Siempre estoy en constante aprendizaje de nuevas herramientas y técnicas que me permitan mejorar mis habilidades como programador."
+                    ? "Soy un entusiasta de la programación y áreas afines a la inteligencia artificial. Me dedico a crear soluciones implementando buenas prácticas, diseños limpios y escalables, y siempre estoy en constante aprendizaje de nuevas herramientas y técnicas que me permitan mejorar mis habilidades como programador."
                     : "I’m enthusiastic about programming and artificial intelligence topics. Formed as Full Stack and specialized in Backend Frameworks. Constantly learning new tools and techniques that allow me to improve my developer skills."
                 )}
               </p>
-              {!isDark && (
-                <>
-                  <p>
-                    {isEs
-                      ? "Además, creo que es importante ayudar a otros a crecer en el área. Por eso, participo en eventos de desarrollo y comparto mis conocimientos con aquellos interesados en aprender."
-                      : "I also believe in the importance of helping colleagues to grow in the tech field. That’s why I participate in events to develop and share my knowledge with those who are interested in learning."}
-                  </p>
-                  <p>
-                    {isEs
-                      ? "En definitiva, la programación y la inteligencia artificial son las áreas que me apasionan y que me permiten seguir aprendiendo y creciendo."
-                      : "To sum up, programming and artificial intelligence are the fields which passionate me the most and that allows me to keep learning and growing."}
-                  </p>
-                </>
-              )}
             </div>
           </div>
 

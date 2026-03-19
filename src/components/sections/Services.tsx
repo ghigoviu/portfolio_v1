@@ -13,10 +13,18 @@ export const Services: React.FC = () => {
 
   const servicesMap = [
     {
+      title: isEs ? 'Desarrollo de marca empresarial' : 'Business Branding',
+      desc: isEs 
+        ? 'Desarrollo de marca empresarial en línea, creación de identidad visual, diseño de logotipos, tarjetas de presentación y papelería corporativa.' 
+        : 'Online business branding development, visual identity creation, logo design, business cards, and corporate stationery.',
+      iconLight: 'https://cdn.lordicon.com/system-regular-4-camera.json',
+      iconDark: 'https://cdn.lordicon.com/system-regular-4-camera.json'
+    },
+    {
       title: isEs ? 'Ingeniería de Software' : 'Software Engineering',
       desc: isEs 
-        ? 'Desarrollo Full-Stack orientado fuertemente al backend con Python (FastAPI), control de arquitecturas cloud, bases de datos complejas e integraciones eficientes de APIs.' 
-        : 'Backend-focused Full-Stack development using Python (FastAPI), managing cloud architectures, complex databases, and efficient API integrations.',
+        ? 'Desarrollo Full-Stack orientado fuertemente al backend, control de arquitecturas cloud, bases de datos complejas e integraciones eficientes de APIs.' 
+        : 'Backend-focused Full-Stack development, managing cloud architectures, complex databases, and efficient API integrations.',
       iconLight: 'https://cdn.lordicon.com/system-regular-39-code.json',
       iconDark: 'https://cdn.lordicon.com/system-regular-39-code.json'
     },

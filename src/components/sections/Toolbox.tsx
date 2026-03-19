@@ -8,9 +8,20 @@ const tools = [
   { name: 'React & TS', type: 'Frontend' },
   { name: 'Node.js', type: 'Backend' },
   { name: 'Python', type: 'Scripting/Sec' },
+  { name: 'PHP Laravel', type: 'Backend' },
+  { name: 'NestJS', type: 'Backend' },
+  { name: 'FastAPI', type: 'Backend' },
+  { name: 'Java & Spring Boot', type: 'Backend' },
+  { name: 'MySQL', type: 'Database' },
+  { name: 'Informix & DB2', type: 'Database'},
   { name: 'AWS & Azure', type: 'Cloud' },
-  { name: 'Kali Linux', type: 'Sec Tools' },
-  { name: 'Jira & Agile', type: 'Management' }
+  { name: 'Jira & Agile', type: 'Management' },
+  { name: 'Docker', type: 'Containerization'},
+  { name: 'Git & GitHub', type: 'Version Control'},
+  { name: 'Dataedo', type: 'Documentation'},
+  { name: 'Postman', type: 'API Testing'},
+  { name: 'Swagger', type: 'API Documentation'},
+
 ];
 
 export const Toolbox: React.FC = () => {
@@ -26,7 +37,7 @@ export const Toolbox: React.FC = () => {
             {t('nav.toolbox')}
           </h2>
           <p className={`max-w-2xl mx-auto ${isDark ? 'text-dark-text/70 font-inter' : 'text-light-text'}`}>
-            {isDark ? "Arsenal técnico y herramientas tácticas. Sin adornos, puras utilidades para resolver el problema." : "Mezcla de herramientas premium para garantizar la mejor calidad en cada entrega."}
+            {isDark ? "Arsenal técnico y herramientas tácticas. Utilidades para resolver problemas." : "Mezcla de herramientas premium para garantizar la mejor calidad en cada entrega."}
           </p>
         </div>
 
