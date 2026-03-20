@@ -26,7 +26,7 @@ Ideales para quienes necesitan establecer su marca online de forma profesional.
 
 ---
 
-## PLAN BÁSICO — Presencia Online Esencial
+## PLAN STARTER — Presencia Online Esencial
 
 **Inversión: $5,000 MXN** (pago único)
 Renovación anual: $1,000 MXN (hosting + dominio)
@@ -51,29 +51,6 @@ Hoy tus clientes potenciales te buscan en Google antes de contactarte. Si no enc
 
 ---
 
-## PLAN PROFESIONAL — Captura de Clientes
-
-**Inversión: $6,000 MXN** (pago único)
-Renovación anual: $2,000 MXN (hosting + dominio + correo)
-Entrega: 5 a 7 días hábiles
-
-**Ideal para:** doctores, abogados, dentistas, nutriólogos, psicólogos, arquitectos, contadores y consultores que necesitan proyectar confianza y captar leads de forma organizada.
-
-**¿Qué incluye?**
-
-- Todo lo del Plan Básico, más:
-- Correo profesional con tu dominio (ejemplo: contacto@tumarca.com). Se acabó el "@gmail" en tu tarjeta de presentación.
-- Formulario de contacto inteligente: el cliente llena sus datos y te llega un aviso automático por correo.
-- Integración básica con email marketing (Mailchimp o similar) para que puedas dar seguimiento a prospectos.
-- Página optimizada con secciones clave: servicios, testimonios, ubicación y contacto.
-
-**¿Qué problema resuelve?**
-Pierdes prospectos porque no tienes un sistema para capturar sus datos y darles seguimiento. Este plan convierte visitantes curiosos en contactos reales que puedes trabajar.
-
-**Resultado:** Un sistema simple pero efectivo para generar leads, proyectar autoridad profesional y organizar tus prospectos sin complicaciones.
-
----
-
 ## PLAN IDENTIDAD DIGITAL — VCard + Web
 
 **Inversión: $5,500 MXN** (pago único)
@@ -84,9 +61,9 @@ Entrega: 5 a 7 días hábiles
 
 **¿Qué incluye?**
 
-- Página web básica profesional.
+- Incluye página web equivalente al Plan Básico
 - Tarjeta digital interactiva (vCard): comparte tu contacto con un toque, sin apps.
-- Diseño y producción de tarjeta física con código QR (50 piezas incluidas).
+- Diseño y producción de tarjeta física con código QR (5 piezas incluidas).
 - Acceso directo a todas tus redes, WhatsApp, correo y ubicación desde la tarjeta.
 - El contacto se guarda directo en el celular de tu prospecto.
 
@@ -94,6 +71,29 @@ Entrega: 5 a 7 días hábiles
 En eventos, reuniones y networking, las tarjetas de papel se pierden. Con la tarjeta digital + QR, tu información queda guardada al instante en el celular de tu prospecto y puedes dirigirlo a tu web para que conozca más de ti.
 
 **Resultado:** Conviertes cada encuentro en persona en un contacto real guardado en el celular de tu prospecto, listo para dar seguimiento.
+
+---
+
+## PLAN PROFESIONAL — Captura de Clientes
+
+**Inversión: $6,000 MXN** (pago único)
+Renovación anual: $2,000 MXN (hosting + dominio + correo)
+Entrega: 5 a 7 días hábiles
+
+**Ideal para:** doctores, abogados, dentistas, nutriólogos, psicólogos, arquitectos, contadores y consultores que necesitan proyectar confianza y captar leads de forma organizada.
+
+**¿Qué incluye?**
+
+- Todo lo del Plan de Identidad Digital, más:
+- Correo profesional con tu dominio (ejemplo: contacto@tumarca.com). Se acabó el "@gmail" en tu tarjeta de presentación.
+- Formulario de contacto inteligente: el cliente llena sus datos y te llega un aviso automático por correo.
+- Integración básica con email marketing (Mailchimp o similar) para que puedas dar seguimiento a prospectos.
+- Página optimizada con secciones clave: servicios, testimonios, ubicación y contacto.
+
+**¿Qué problema resuelve?**
+Pierdes prospectos porque no tienes un sistema para capturar sus datos y darles seguimiento. Este plan convierte visitantes curiosos en contactos reales que puedes trabajar.
+
+**Resultado:** Un sistema simple pero efectivo para generar leads, proyectar autoridad profesional y organizar tus prospectos sin complicaciones.
 
 ---
 
@@ -114,8 +114,8 @@ Entrega: 10 a 15 días hábiles
 **¿Qué incluye?**
 
 - Tienda online (e-commerce) completa y funcional.
-- Catálogo de productos con fotos, descripciones y variantes (talla, color, etc.). Hasta 30 productos cargados inicialmente.
-- Métodos de pago integrados: tarjeta de crédito/débito, transferencia bancaria, y opción de pago contra entrega.
+- Catálogo de productos con fotos, descripciones y variantes (talla, color, etc.). Hasta 30 productos cargados inicialmente (datos proporcionados por el cliente, fotos, descripciones, etc.).
+- Métodos de pago integrados: tarjeta de crédito/débito, transferencia bancaria, y opción de pago contra entrega (el cliente debe contar con terminal para cobro en sitio y las comisiones por transacción se cobran por separado).
 - Carrito de compras y proceso de checkout optimizado.
 - Panel de administración para que tú mismo gestiones productos, pedidos e inventario.
 - Notificaciones automáticas de pedidos nuevos.
@@ -137,15 +137,15 @@ Soluciones para negocios que ya tienen presencia online y necesitan escalar.
 
 ## PLAN CRECIMIENTO — Sistema de Leads Automatizado
 
-**Inversión: $12,000 a $18,000 MXN** (según complejidad)
-Mantenimiento mensual: $1,000 a $3,000 MXN
+**Inversión: $14,000 a $16,000 MXN** (según complejidad)
+Mantenimiento mensual: $2,000 MXN
 Entrega: 10 a 15 días hábiles
 
 **Ideal para:** negocios de servicios, clínicas, despachos, academias, coaches, consultorías y cualquier negocio que viva de agendar citas o cerrar prospectos.
 
 **¿Qué incluye?**
 
-- Landing page de alta conversión diseñada con copywriting persuasivo.
+- Hasta 3 landing pages de alta conversión diseñada con copywriting persuasivo.
 - Integración con WhatsApp Business API para respuestas automáticas.
 - CRM básico para gestionar y dar seguimiento a tus prospectos.
 - Automatización de seguimiento: secuencias de mensajes o correos para que ningún prospecto se te escape.
@@ -188,6 +188,8 @@ Tu competencia ya está publicando contenido y posicionándose en Google. Mientr
 ## PLAN MANTENIMIENTO PREMIUM — Tranquilidad Digital
 
 **Inversión: $500 a $2,000 MXN / mes** (según plan contratado)
+
+**¿Sabías que un sitio hackeado puede costar más de $15,000 MXN en reparación y pérdida de clientes? El mantenimiento es tu seguro digital.**
 
 **Ideal para:** cualquier cliente que ya tiene su sitio web y quiere mantenerlo actualizado, seguro y funcionando sin preocupaciones.
 
@@ -262,8 +264,8 @@ Solo 3 cosas: tu logo (si lo tienes, si no podemos ayudarte), textos o informaci
 
 - **Forma de pago:** 50% al confirmar, 50% al entregar. Transferencia, depósito o tarjeta.
 - **Rondas de revisión:** 2 incluidas en todos los planes. Revisiones adicionales: $500 MXN cada una.
-- **Contenido:** El cliente proporciona textos, logos y fotografías. La redacción profesional de textos tiene un costo adicional de $1,500 MXN.
-- **Cancelación:** Si cancelas antes de la primera revisión, se reembolsa el 50%. Después de la primera revisión, no hay reembolso.
+- **Contenido:** El cliente proporciona textos, logos y fotografías. La sesión de fotografías de marca profesionales tiene un costo adicional de $1,000 MXN.
+- **Cancelación:** Si cancelas antes de la primera revisión, se reembolsa el 50%. Después de la primera revisión, el anticipo se retiene como pago por el trabajo realizado hasta ese punto.
 - **Tiempos de entrega:** Los tiempos indicados aplican a partir de que el cliente entregue toda la información solicitada. Retrasos en la entrega de contenido por parte del cliente extienden los plazos proporcionalmente.
 
 ---
@@ -278,4 +280,4 @@ Agenda tu consulta gratuita de 15 minutos y te ayudamos a elegir el plan perfect
 
 ---
 
-*[Tu nombre o marca] — Soluciones digitales que generan clientes.*
+*rcambray.dev — Soluciones digitales que generan clientes.*

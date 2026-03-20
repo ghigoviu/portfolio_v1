@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "slug": "data-leak-masivo-sat",
+    "title": "Data leak masivo de datos del SAT",
+    "date": "2026-03-10",
+    "tag": "Ciberseguridad",
+    "excerpt": "Análisis de las recientes noticias sobre la filtración de datos y qué hacer al respecto para proteger tu infraestructura.",
+    "contentHtml": "<p>En recientes días se reportó un posible leak masivo de datos en las infraestructuras de entidades tributarias. Es crucial mantener políticas de arquitectura Zero Trust.</p><h2>¿Qué hacer si eres empresa afectada?</h2><ul><li>Auditar accesos inmediatamente.</li><li>Rotar credenciales críticas.</li><li>Implementar autenticación multifactor en todos los accesos VPN.</li></ul>",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "slug": "ia-regulacion-2026",
+    "title": "Nueva regulación sobre Inteligencia Artificial 2026",
+    "date": "2026-03-15",
+    "tag": "Inteligencia artificial",
+    "excerpt": "Se establecen nuevas normativas para el uso de modelos de lenguaje en el sector financiero y de salud.",
+    "contentHtml": "<p>Con el avance acelerado de los de LLMs, la nueva normativa 2026 propone medidas estrictas de transparencia. Las APIs que procesan datos de PII deberán estar certificadas bajo el nuevo estándar <b>ISO-IA-2026</b>.</p><p>Esto impacta de lleno en el pipeline de CI/CD para arquitecturas Serverless y Cloud Native.</p>",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "slug": "auditorias-nube-regularizacion",
+    "title": "Preparándote para auditorías Cloud",
+    "date": "2026-03-18",
+    "tag": "Regularización",
+    "excerpt": "El incremento de las auditorías técnicas sobre arquitecturas híbridas y cómo prepararse con infraestructura como código.",
+    "contentHtml": "<p>Las regulaciones son cada vez más estrictas en cuanto a gobernanza de datos. Adoptar herramientas como Terraform o Pulumi para auditar la infraestructura como código (IaC) ya no es un lujo, es una necesidad de cumplimiento.</p>",
+    "featured": false
+  }
+]

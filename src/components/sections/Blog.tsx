@@ -1,26 +1,27 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { useTheme } from '../../theme/ThemeContext';
 
 const articles = [
   {
-    title: 'Zero Trust Architecture in Agile Teams',
-    category: 'Cybersecurity',
-    date: 'Oct 2023',
-    link: '#'
+    title: 'Data leak masivo de datos del SAT',
+    category: 'Ciberseguridad',
+    date: 'Mar 2026',
+    slug: 'data-leak-masivo-sat'
   },
   {
-    title: 'Building Fluid UIs with Framer Motion',
-    category: 'Engineering',
-    date: 'Sep 2023',
-    link: '#'
+    title: 'Nueva regulación sobre Inteligencia Artificial 2026',
+    category: 'Inteligencia artificial',
+    date: 'Mar 2026',
+    slug: 'ia-regulacion-2026'
   },
   {
-    title: 'The Art of Balancing Quality and Speed',
-    category: 'Management',
-    date: 'Aug 2023',
-    link: '#'
+    title: 'Preparándote para auditorías Cloud',
+    category: 'Regularización',
+    date: 'Mar 2026',
+    slug: 'auditorias-nube-regularizacion'
   }
 ];
 
@@ -36,9 +37,9 @@ export const Blog: React.FC = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-light-heading dark:text-dark-heading">
             {t('nav.blog')}
           </h2>
-          <a href="#" className={`text-sm font-bold uppercase tracking-wider hover:underline ${isDark ? 'text-dark-accent3' : 'text-light-accent3'}`}>
-            View All
-          </a>
+          <Link to="/portfolio_v1/blog" className={`text-sm font-bold uppercase tracking-wider hover:underline ${isDark ? 'text-dark-accent3' : 'text-light-accent3'}`}>
+            Ver Todo
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -73,9 +74,9 @@ export const Blog: React.FC = () => {
                   isDark ? 'text-dark-text/60' : 'text-light-text/70'
                 }`}>
                   <span>{article.date}</span>
-                  <span className={`transition-transform duration-300 group-hover:translate-x-2 ${isDark ? 'text-dark-accent3' : 'text-light-accent3'}`}>
+                  <Link to={`/portfolio_v1/blog/${article.slug}`} className={`transition-transform duration-300 group-hover:translate-x-2 ${isDark ? 'text-dark-accent3' : 'text-light-accent3'}`}>
                     Read →
-                  </span>
+                  </Link>
                 </div>
               </div>
             </motion.div>
