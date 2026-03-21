@@ -45,13 +45,12 @@ export const Navbar: React.FC = () => {
                 <Moon className="w-5 h-5 text-light-accent1" />
               )}
             </button>
-            
+
             <div className="hidden md:flex flex-col text-xs text-right opacity-60">
               <span className="font-medium">{t(`theme.${theme}`)}</span>
               <span className="uppercase text-[10px] tracking-wider">{i18n.language}</span>
             </div>
           </div>
-
         </div>
       </div>
     </nav>

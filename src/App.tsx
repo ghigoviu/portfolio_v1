@@ -9,13 +9,14 @@ import { Blog } from './components/sections/Blog'
 import { Toolbox } from './components/sections/Toolbox'
 import { BlogListPage } from './pages/BlogListPage'
 import { BlogPostPage } from './pages/BlogPostPage'
+import { BrandingPage } from './pages/BrandingPage'
 
 function App() {
   return (
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route path="/portfolio_v1" element={
+          <Route path="portfolio_v1" element={
             <>
               <Home />
               <About />
@@ -26,10 +27,12 @@ function App() {
               <Toolbox />
             </>
           } />
-          <Route path="/portfolio_v1/blog" element={<BlogListPage />} />
-          <Route path="/portfolio_v1/blog/:slug" element={<BlogPostPage />} />
+          <Route path="portfolio_v1/blog" element={<BlogListPage />} />
+          <Route path="portfolio_v1/blog/:slug" element={<BlogPostPage />} />
+          <Route path="portfolio_v1/branding" element={<BrandingPage />} />
         </Routes>
       </Layout>
+
     </BrowserRouter>
   )
 }

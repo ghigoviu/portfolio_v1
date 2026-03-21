@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { useTheme } from '../../theme/ThemeContext';
 import { MessageCircle } from 'lucide-react';
 import { LordIcon } from '../common/LordIcon';
+import { Link } from 'react-router-dom';
 
 export const Services: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -18,7 +19,8 @@ export const Services: React.FC = () => {
         ? 'Desarrollo de marca empresarial en línea, creación de identidad visual, diseño de logotipos, tarjetas de presentación y papelería corporativa.' 
         : 'Online business branding development, visual identity creation, logo design, business cards, and corporate stationery.',
       iconLight: 'https://cdn.lordicon.com/system-regular-4-camera.json',
-      iconDark: 'https://cdn.lordicon.com/system-regular-4-camera.json'
+      iconDark: 'https://cdn.lordicon.com/system-regular-4-camera.json',
+      link: 'branding'
     },
     {
       title: isEs ? 'Ingeniería de Software' : 'Software Engineering',
@@ -26,7 +28,8 @@ export const Services: React.FC = () => {
         ? 'Desarrollo Full-Stack orientado fuertemente al backend, control de arquitecturas cloud, bases de datos complejas e integraciones eficientes de APIs.' 
         : 'Backend-focused Full-Stack development, managing cloud architectures, complex databases, and efficient API integrations.',
       iconLight: 'https://cdn.lordicon.com/system-regular-39-code.json',
-      iconDark: 'https://cdn.lordicon.com/system-regular-39-code.json'
+      iconDark: 'https://cdn.lordicon.com/system-regular-39-code.json',
+      link: 'software'
     },
     {
       title: isEs ? 'Ciberseguridad' : 'Cybersecurity',
@@ -34,15 +37,17 @@ export const Services: React.FC = () => {
         ? 'Hardening de servidores, cumplimiento normativo ISO 27001, gobernanza de datos y monitoreo proactivo para detectar y prevenir vulnerabilidades antes de que sean explotadas.' 
         : 'Server hardening, ISO 27001 compliance, data governance, and proactive monitoring to detect and prevent vulnerabilities before they are exploited.',
       iconLight: 'https://cdn.lordicon.com/system-regular-12-shield.json',
-      iconDark: 'https://cdn.lordicon.com/system-regular-12-shield.json'
+      iconDark: 'https://cdn.lordicon.com/system-regular-12-shield.json',
+      link: 'cybersecurity'
     },
     {
-      title: isEs ? 'Gestión de Proyectos' : 'Project Management',
+      title: isEs ? 'Gestión de Proyectos de TI' : 'IT Project Management',
       desc: isEs 
         ? 'Liderazgo ágil, análisis de requerimientos para traducción entre áreas técnicas y de negocio, asegurando entregas efectivas y de alta calidad dentro del tiempo esperado.' 
         : 'Agile leadership, requirements analysis for bridging technical and business areas, ensuring effective, high-quality deliveries within the expected timeline.',
       iconLight: 'https://cdn.lordicon.com/system-regular-11-clock.json',
-      iconDark: 'https://cdn.lordicon.com/system-regular-11-clock.json'
+      iconDark: 'https://cdn.lordicon.com/system-regular-11-clock.json',
+      link: 'management'
     }
   ];
 
@@ -62,6 +67,7 @@ export const Services: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {servicesMap.map((service, idx) => (
+          <Link to={service.link} key={idx} className="block no-underline" onClick={() => window.scrollTo(0, 0)}>
             <motion.div
               key={idx}
               initial={{ opacity: 0, y: 30 }}
@@ -100,7 +106,8 @@ export const Services: React.FC = () => {
                 {service.desc}
               </p>
             </motion.div>
-          ))}
+          </Link>
+          ))} 
         </div>
 
         {/* CTA WhatsApp */}

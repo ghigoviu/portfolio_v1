@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { ThemeToggle } from './ThemeToggle';
 
 export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -15,11 +14,6 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
         <p className="text-sm opacity-70">
           © {new Date().getFullYear()} - Rodrigo Cambray
         </p>
-        <div className="flex items-center space-x-4">
-          <Link to="portfolio_v1/blog" className="text-sm font-semibold hover:underline opacity-80 hover:opacity-100 dark:text-dark-accent3 text-light-accent3">
-            VER BLOG
-          </Link>
-        </div>
       </footer>
     </div>
   );
