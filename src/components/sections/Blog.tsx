@@ -6,23 +6,13 @@ import { useTheme } from '../../theme/ThemeContext';
 
 const articles = [
   {
-    title: 'Data leak masivo de datos del SAT',
+    title: 'Sobre el registro de líneas telefónicas obligatorio.',
     category: 'Ciberseguridad',
-    date: 'Mar 2026',
-    slug: 'data-leak-masivo-sat'
+    date: 'Abril 2026',
+    link: 'https://substack.com/home/post/p-192795435',
+    slug: 'registro-lineas-telefonicas'
   },
-  {
-    title: 'Nueva regulación sobre Inteligencia Artificial 2026',
-    category: 'Inteligencia artificial',
-    date: 'Mar 2026',
-    slug: 'ia-regulacion-2026'
-  },
-  {
-    title: 'Preparándote para auditorías Cloud',
-    category: 'Regularización',
-    date: 'Mar 2026',
-    slug: 'auditorias-nube-regularizacion'
-  }
+
 ];
 
 export const Blog: React.FC = () => {
@@ -37,7 +27,7 @@ export const Blog: React.FC = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-light-heading dark:text-dark-heading">
             {t('nav.blog')}
           </h2>
-          <Link to="/portfolio_v1/blog" className={`text-sm font-bold uppercase tracking-wider hover:underline ${isDark ? 'text-dark-accent3' : 'text-light-accent3'}`}>
+          <Link to="https://substack.com/@rcambraydev" className={`text-sm font-bold uppercase tracking-wider hover:underline ${isDark ? 'text-dark-accent3' : 'text-light-accent3'}`}>
             Ver Todo
           </Link>
         </div>
@@ -74,7 +64,7 @@ export const Blog: React.FC = () => {
                   isDark ? 'text-dark-text/60' : 'text-light-text/70'
                 }`}>
                   <span>{article.date}</span>
-                  <Link to={`/portfolio_v1/blog/${article.slug}`} className={`transition-transform duration-300 group-hover:translate-x-2 ${isDark ? 'text-dark-accent3' : 'text-light-accent3'}`}>
+                  <Link to={`${article.link}`} className={`transition-transform duration-300 group-hover:translate-x-2 ${isDark ? 'text-dark-accent3' : 'text-light-accent3'}`}>
                     Read →
                   </Link>
                 </div>

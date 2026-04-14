@@ -1,4 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+
+const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&_';
 
 interface ShuffleTextProps {
   text: string;
@@ -8,10 +10,7 @@ interface ShuffleTextProps {
 export const ShuffleText: React.FC<ShuffleTextProps> = ({ text, className = "" }) => {
   const [displayText, setDisplayText] = useState(text);
   const intervalRef = useRef<number | null>(null);
-  // Characters used for the shuffle effect
-  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+';
-
-  const startShuffle = () => {
+  const startShuffle = useCallback(() => {
     let iteration = 0;
     if (intervalRef.current) window.clearInterval(intervalRef.current);
     
@@ -32,17 +31,17 @@ export const ShuffleText: React.FC<ShuffleTextProps> = ({ text, className = "" }
       
       iteration += 1 / 3;
     }, 30);
-  };
+  }, [text]);
 
-  const stopShuffle = () => {
+  const stopShuffle = useCallback(() => {
     if (intervalRef.current) window.clearInterval(intervalRef.current);
     setDisplayText(text);
-  };
+  }, [text]);
 
   useEffect(() => {
-    // Reset display text if the text prop changes (e.g. translation changes)
-    setDisplayText(text);
-  }, [text]);
+    // Start shuffle on mount or when the text prop changes
+    startShuffle();
+  }, [startShuffle]);
 
   useEffect(() => {
     return () => {

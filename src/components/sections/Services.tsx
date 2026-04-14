@@ -38,17 +38,9 @@ export const Services: React.FC = () => {
         : 'Server hardening, ISO 27001 compliance, data governance, and proactive monitoring to detect and prevent vulnerabilities before they are exploited.',
       iconLight: 'https://cdn.lordicon.com/system-regular-12-shield.json',
       iconDark: 'https://cdn.lordicon.com/system-regular-12-shield.json',
-      link: 'cybersecurity'
+      link: 'https://www.ramdia.com'
     },
-    {
-      title: isEs ? 'Gestión de Proyectos de TI' : 'IT Project Management',
-      desc: isEs 
-        ? 'Liderazgo ágil, análisis de requerimientos para traducción entre áreas técnicas y de negocio, asegurando entregas efectivas y de alta calidad dentro del tiempo esperado.' 
-        : 'Agile leadership, requirements analysis for bridging technical and business areas, ensuring effective, high-quality deliveries within the expected timeline.',
-      iconLight: 'https://cdn.lordicon.com/system-regular-11-clock.json',
-      iconDark: 'https://cdn.lordicon.com/system-regular-11-clock.json',
-      link: 'management'
-    }
+    
   ];
 
   return (

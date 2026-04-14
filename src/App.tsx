@@ -10,7 +10,6 @@ import { Toolbox } from './components/sections/Toolbox'
 import { BlogListPage } from './pages/BlogListPage'
 import { BlogPostPage } from './pages/BlogPostPage'
 import { BrandingPage } from './pages/BrandingPage'
-import { SoftwarePage } from './pages/SoftwarePage'
 
 function App() {
   return (
@@ -31,8 +30,6 @@ function App() {
           <Route path="portfolio_v1/blog" element={<BlogListPage />} />
           <Route path="portfolio_v1/blog/:slug" element={<BlogPostPage />} />
           <Route path="portfolio_v1/branding" element={<BrandingPage />} />
-          <Route path="portfolio_v1/software" element={<SoftwarePage />} />
-          <Route path="software" element={<SoftwarePage />} />
         </Routes>
       </Layout>
 
