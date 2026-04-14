@@ -10,13 +10,14 @@ import { Toolbox } from './components/sections/Toolbox'
 import { BlogListPage } from './pages/BlogListPage'
 import { BlogPostPage } from './pages/BlogPostPage'
 import { BrandingPage } from './pages/BrandingPage'
+import { SoftwarePage } from './pages/SoftwarePage'
 
 function App() {
   return (
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route path="portfolio_v1" element={
+          <Route path="/" element={
             <>
               <Home />
               <About />
@@ -27,9 +28,10 @@ function App() {
               <Toolbox />
             </>
           } />
-          <Route path="portfolio_v1/blog" element={<BlogListPage />} />
-          <Route path="portfolio_v1/blog/:slug" element={<BlogPostPage />} />
-          <Route path="portfolio_v1/branding" element={<BrandingPage />} />
+          <Route path="/blog" element={<BlogListPage />} />
+          <Route path="/blog/:slug" element={<BlogPostPage />} />
+          <Route path="/branding" element={<BrandingPage />} />
+          <Route path="/software" element={<SoftwarePage />} />
         </Routes>
       </Layout>
 
